@@ -17,3 +17,4 @@ Items of Interest
 
 Proposed Layout
 ---------------
+![proposal Image](/docs/proposalPic.png)
