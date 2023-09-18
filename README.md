@@ -1,4 +1,4 @@
-# Your project name
-Your given and family name.
+# A basic webpage
+Kohl Keilholtz
 
-A one-sentence description of your project.
+A webpage with the proper qualifications as per stated in the assignement description
