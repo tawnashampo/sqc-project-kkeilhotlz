@@ -4,8 +4,6 @@ import { closeSync, openSync, readFileSync, writeFileSync }
   from 'node:fs'
 import { parse } from 'node-html-parser'
 
-import pkg from 'svgoban'
-const { serialize } = pk
 
 //Config
 const srcPath = 'data/theNightOfNoMoon.html'
@@ -53,7 +51,12 @@ const gobanConfig = {
   hideMargin: false
 }
 
-paraAll = getElementsByTagName('p').textContent.removeWhiteSpace()
+const paraAll = function() {
+  output =  paraAll.getElementsByTagName('p').text.removeWhiteSpace().toString();
+  return output
+}
+
+
 
 const periodPull = "."
 const commaPull = ","
